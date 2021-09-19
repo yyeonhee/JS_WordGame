@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>끝말잇기</title>
+</head>
+
+<body>
+    <div class="head_title" onclick="DarkMode()">
+        <p>여러분의 눈은 소중하니까, <strong>지금 바로 다크 모드를 켜보세요!</strong></p>
+    </div>
+
+    <button onclick="DarkMode()" id="dark_bt">다크 모드로 보기</button>
+
+    <h2>끝말잇기 게임</h2>
+    
+    <div class="body">
+        <div class="partition">
+            <div><span id="order">1</span>번째 참가자</div>
+        </div>
+    
+        <div class="word">
+            <div>제시어 - <span id="word"></span></div>
+        </div>
+    
+        <div class="input_text">
+            <input type="text" placeholder="제시어에 맞는 단어를 입력해주세요!">
+            <button id="input_button">입력</button>
+        </div>
+    </div>
+
+<script src="wordchain.js"></script>
+<script src="darkmode.js"></script>
+</body>
+</html>
