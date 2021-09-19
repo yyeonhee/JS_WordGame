@@ -17,10 +17,6 @@ h2 {
   margin-top: 1%;
 }
 
-.body {
-  margin-top: 6%;
-}
-
 /* input */
 input {
   margin-top: 1%;
@@ -37,20 +33,9 @@ input:focus {
   outline: none;
 }
 
-#input_button {
-  font-size: 18px;
-  background-color: #faf1d6;
-  outline: none;
-  border: none;
-  /* border-radius: 20%; */
-  margin-left: 2%;
-  margin-top: 1%;
-  width: 52px;
-  height: 54px;
-  padding: 0.8 0.8rem;
-
-  box-shadow: 3px 3px 3px 3px #e4e4e4;
-  border-radius: 10px;
+.body {
+  margin-top: 6%;
+  margin-top: 3%;
 }
 
 .partition,
@@ -72,15 +57,6 @@ input:focus {
   font-size: 15px;
 }
 
-#order {
-  font-weight: bold;
-}
-
-#word {
-  font-size: 28px;
-  font-weight: bold;
-}
-
 .head_title {
   background-color: #f3f1ff;
 }
@@ -94,6 +70,36 @@ input:focus {
   padding: 1rem 1rem;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#order {
+  font-weight: bold;
+}
+
+#word {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#input_button {
+  font-size: 18px;
+  background-color: #faf1d6;
+  outline: none;
+  border: none;
+  /* border-radius: 20%; */
+  margin-left: 2%;
+  margin-top: 1%;
+  width: 52px;
+  height: 54px;
+  padding: 0.8 0.8rem;
+
+  box-shadow: 3px 3px 3px 3px #e4e4e4;
+  border-radius: 10px;
+}
+
 #dark_bt {
   background-color: #8977ad;
   display: flex;
@@ -105,9 +111,4 @@ input:focus {
   width: 232px;
   height: 40px;
   padding: 0.5rem 3.5rem;
-}
-
-.dark-mode {
-  background-color: black;
-  color: white;
 }
